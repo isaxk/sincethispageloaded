@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Since this page was loaded...</title>
+
+<meta name="description" content="">
+<meta name="title" content="IsaacDoesCodes - Games and random stuff">
+<meta name="keywords" content="games, random, autism, autistic, Isaac, does, codes, Isaac Does Codes,">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="10 days">
+
+<link rel="stylesheet" href="style.css">
+<style>
+    
+</style>
+<link rel="shortcut icon" href="/assets/profile.jpeg" type="image/x-icon">
+<script src="https://kit.fontawesome.com/a76afb4366.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+   
+
+    <main>
+        <div class="hero">
+    <h1>Since this page was loaded...</h1>
+    <p></p>
+
+    
+</div>
+
+</body>
+<head>
+    <style>
+        body {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="sinceyouloaded">
+    <div class="seconds"><span class="value" id="secs">0</span> second(s) have passed and...</div>
+    <section class="items">
+        <div class="item" style="background-color: rgb(255, 153, 0); color: white;"><i
+                class="fas fa-envelope-open-text"></i><br><span class="value" id="mails">0</span><br>emails have been
+            sent
+        </div>
+        <div class="item" style="background-color: #E8BEAC;"><i class="fas fa-baby"></i><br><span class="value"
+                id="born">0</span><br>babies have been born</div>
+        <div class="item" style="background-color: rgb(251, 255, 0);"><i class="fab fa-google"></i><br><span
+                class="value" id="google">0</span><br>Google Searches have been made</div>
+        <div class="item" style="background-color: rgb(0, 0, 0); color: white;"><i
+                class="fas fa-skull-crossbones"></i><br><span class="value" id="die">0</span><br>people have died.</div>
+        <div class="item" style="background-color: rgb(255, 40, 40); color: white;"><i
+                class="fab fa-youtube"></i><br><span class="value" id="vidhrs">0</span><br>hours of video have been
+            streamed</div>
+        <div class="item" style="background-color: rgb(0, 9, 128); color: white;"><i class="fas fa-bolt"></i><br><span
+                class="value" id="strikes">0</span><br>bolts of lightning have stiked</div>
+        <div class="item" style="background-color: rgb(255, 79, 79); color: white;"><i
+                class="fas fa-pizza-slice"></i><br><span class="value" id="pizzas">0</span><br>slices of pizza have been
+            eaten</div>
+        <div class="item" style="background-color: rgb(1, 194, 1); color: white;"><i class="fas fa-tree"></i><br><span
+                class="value" id="trees">0</span><br>football pitches of trees have been chopped down</div>
+        <div class="item" style="background-color: rgb(1, 149, 194); color:white;"><i class="fas fa-water"></i><br><span
+                class="value" id="pbags">0</span>kg<br>of plastic has gone in the ocean</div>
+        <div class="item" style="background-color: rgb(201, 207, 212);"><i class="fas fa-mobile-alt"></i><br><span
+                class="value" id="iphones">0</span><br>iPhones have been sold</div>
+        <div class="item" style="background-color: rgb(190, 226, 122);"><i class="fas fas fa-comment-alt"></i><br><span
+                class="value" id="texts">0</span><br>text messages have been sent</div>
+
+        <div class="item" style="background-image: url(https://media0.giphy.com/media/CzbiCJTYOzHTW/giphy.gif?cid=ecf05e47c41eyhme84igzmw5cvet09qyxa60lu4qckt4za6e&rid=giphy.gif&ct=g); 
+        background-size: cover;
+        background-position: center;
+        color: white;">
+            <i class="fas fas fa-comment-alt"></i><br><span class="value" id="gifs">0</span><br>GIFS have been sent
+        </div>
+
+
+        <div class="item" style="background-color: rgb(101, 1, 194); color:white;"><i class="fas fa-users"></i><br><span
+                class="value" id="newbeez">0</span><br>people used the internet for the first time.</div>
+        <div class="item" style="background-color: rgb(236, 49, 49); color:white;"><i
+                class="fas fas fa-heart"></i><br>Your heart has beat<br><span class="value" id="beats">0</span> times
+        </div>
+        <div class="item" style="background-color: rgb(27, 129, 18); color:white;"><i
+                class="fas fas fas fa-money-bill-wave"></i><br>$<span class="value" id="appleds">0</span><br>has gone to
+            Apple Inc.</div>
+    </section>
+    <small class="smallprint">Disclamer: Information is not necessarily 100% accurate and should be taken with a dash of
+        salt. This is created for entertainment purposes only, so if your doing proper research, look elsewhere. Values
+        are
+        approxomations and averages calculated from different sources.</small>
+    <script>
+        function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+        var emails = 0;
+        var babies = 0;
+        var googles = 0;
+        var deaths = 0;
+        var hrsvids = 0;
+        var lightning = 0;
+        var pizzas = 0;
+        var trees = 0;
+        var phones = 0;
+        var pbags = 0;
+        var secs = 0;
+        var texts = 0;
+        var gifs = 0;
+        var newbeez = 0;
+        var beats = 0;
+        var appleds = 0;
+        function email() {
+            emails += 500000;
+            document.getElementById("mails").innerText = numberWithCommas(emails);
+        }
+        function born() {
+            babies += 1;
+            document.getElementById("born").innerText = numberWithCommas(babies);
+        }
+        function google() {
+            googles += 400;
+            document.getElementById("google").innerText = numberWithCommas(googles);
+        }
+        function die() {
+            deaths += 1;
+            document.getElementById("die").innerText = numberWithCommas(deaths);
+        }
+        function video() {
+            hrsvids += 120;
+            document.getElementById("vidhrs").innerText = numberWithCommas(hrsvids);
+        }
+        function stike() {
+            lightning += 1;
+            document.getElementById("strikes").innerText = numberWithCommas(lightning);
+        }
+        function eatpizza() {
+            pizzas += 3.5;
+            document.getElementById("pizzas").innerText = numberWithCommas(Math.round(pizzas));
+        }
+        function chop() {
+            trees += 1;
+            document.getElementById("trees").innerText = numberWithCommas(trees);
+        }
+        function phone() {
+            phones += 1;
+            document.getElementById("iphones").innerText = numberWithCommas(phones);
+        }
+        function bags() {
+            pbags += 1;
+            document.getElementById("pbags").innerText = numberWithCommas(pbags);
+        }
+        function counter() {
+            secs += 1;
+            document.getElementById("secs").innerText = numberWithCommas(secs);
+        }
+        function text() {
+            texts += 2000;
+            document.getElementById("texts").innerText = numberWithCommas(texts);
+        }
+        function gif() {
+            gifs += 231;
+            document.getElementById("gifs").innerText = numberWithCommas(gifs);
+        }
+        function newperson() {
+            newbeez += 1;
+            document.getElementById("newbeez").innerText = numberWithCommas(newbeez);
+        }
+        function beat() {
+            beats += 1;
+            document.getElementById("beats").innerText = numberWithCommas(beats);
+        }
+        function appleearn() {
+            appleds += 30;
+            document.getElementById("appleds").innerText = numberWithCommas(appleds);
+        }
+        window.setInterval(counter, 1000)
+        window.setInterval(email, 100)
+        window.setInterval(born, 500)
+        window.setInterval(google, 10)
+        window.setInterval(die, 600)
+        window.setInterval(video, 10)
+        window.setInterval(stike, 10)
+        window.setInterval(eatpizza, 10)
+        window.setInterval(chop, 900)
+        window.setInterval(phone, 100)
+        window.setInterval(bags, 10)
+        window.setInterval(text, 10)
+        window.setInterval(gif, 10)
+        window.setInterval(newperson, 140)
+        window.setInterval(beat, 0877)
+        window.setInterval(appleearn, 10)
+    </script>
+
+</div>
+    </main>
+    <footer id="footer">&copy; IsaacDoesCodes 2022</footer>
+</body>
+</html>

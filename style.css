@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px auto;
+    transition: 0.5s;
+    background-color: white;
+    z-index: 100;
+    -webkit-box-shadow: -2px 5px 32px -5px rgba(0, 0, 0, 0.63);
+    box-shadow: -2px 5px 32px -5px rgba(0, 0, 0, 0.63);
+    padding: 80px 10px;
+    box-shadow: none
+}
+
+nav .nav-content {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    height: 100%
+}
+
+nav .title {
+    font-size: 25px
+}
+
+nav .title img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+    transition: 0.5s
+}
+
+nav .title .text {
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    transition: 0.5s
+}
+
+nav .links {
+    float: right;
+    transition: 0.5s
+}
+
+nav .links ul,
+nav .links li {
+    list-style-type: none;
+    list-style: none;
+    display: inline
+}
+
+nav .links ul a,
+nav .links li a {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #d4d4d4;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #474747
+}
+
+nav .links ul a:hover,
+nav .links li a:hover {
+    border-bottom-color: currentColor;
+    color: currentColor;
+    padding-bottom: 3px
+}
+
+@media screen and (max-width: 502px) {
+    nav {
+        padding-bottom: 80px;
+        padding-top: 5px !important;
+        text-align: center;
+        transition: 0.5s;
+        height: 60px !important
+    }
+
+    nav .title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 290px;
+        text-align: left
+    }
+
+    nav .links {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-53%) translateY(15px);
+        width: 100%
+    }
+}
+
+.button {
+    background-color: rgba(48, 99, 153, 0.842);
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    z-index: 1;
+    transition: 0.5s;
+    font-size: 16px;
+    width: 170px
+}
+
+.button:hover {
+    padding-bottom: 7px;
+    padding-top: 12.5px
+}
+
+@media screen and (max-width: 541px) {
+    .button {
+        clear: both;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px
+    }
+}
+
+.entry {
+    width: 350px;
+    float: left;
+    margin: 10px;
+    background-color: #f8f9fc;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s
+}
+
+.entry img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center
+}
+
+.entry .entry-link {
+    color: currentColor;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.entry:hover {
+    background-color: white
+}
+
+@media screen and (max-width: 815px) {
+    .entry {
+        width: 90%;
+        max-width: 480px
+    }
+}
+
+.sinceyouloaded {
+    text-align: center
+}
+
+.sinceyouloaded .value {
+    font-family: 'Inconsolata', monospace
+}
+
+.sinceyouloaded .seconds {
+    background-color: #46ff46;
+    height: 30px
+}
+
+.sinceyouloaded .items {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 20px
+}
+
+.sinceyouloaded .item {
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center
+}
+
+#embed-vid {
+    background-color: #bdbdbd
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    overflow-y: scroll
+}
+
+main {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 500px
+}
+
+.hero {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 50px
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0px;
+    border-top: 1px solid black;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    padding-top: 10px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #707070;
+    width: 10px;
+    border-radius: 10px
+}
