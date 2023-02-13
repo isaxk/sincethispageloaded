@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 nav {
     position: fixed;
@@ -158,7 +158,9 @@ nav .links li a:hover {
 }
 
 .sinceyouloaded {
-    text-align: center
+    text-align: center;
+    max-width: 1235px;
+    margin: auto;
 }
 
 .sinceyouloaded .value {
@@ -174,7 +176,7 @@ nav .links li a:hover {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .sinceyouloaded .item {
@@ -189,7 +191,7 @@ nav .links li a:hover {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     max-width: 800px;
     margin: auto;
     overflow-y: scroll
@@ -218,20 +220,4 @@ footer {
     max-width: 700px;
     margin: auto;
     margin-top: 50px
-}
-
-::-webkit-scrollbar {
-    width: 12px;
-    background-color: transparent;
-    padding-top: 10px
-}
-
-::-webkit-scrollbar-track {
-    border-radius: 10px
-}
-
-::-webkit-scrollbar-thumb {
-    background: #707070;
-    width: 10px;
-    border-radius: 10px
 }
