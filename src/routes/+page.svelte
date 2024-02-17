@@ -1,2 +1,20 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Counter from "$lib/components/Counter.svelte";
+
+	import { counters } from "$lib/counters";
+</script>
+
+<h1>Since this page was loaded...</h1>
+
+<div class="counters">
+	{#each counters as data}
+		<Counter {data} />
+	{/each}
+</div>
+
+<style>
+	.counters {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+</style>
