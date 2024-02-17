@@ -190,11 +190,16 @@ nav .links li a:hover {
     background-color: #bdbdbd
 }
 
+html {
+    background-color: #121212;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     max-width: 800px;
     margin: auto;
-    overflow-y: scroll
+    overflow-y: scroll;
+    color: white;
 }
 
 main {
