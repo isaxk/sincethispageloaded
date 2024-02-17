@@ -168,8 +168,9 @@ nav .links li a:hover {
 }
 
 .sinceyouloaded .seconds {
-    background-color: #46ff46;
-    height: 30px
+    background-color: #46ff46b5;
+    height: 30px;
+    color: black;
 }
 
 .sinceyouloaded .items {
