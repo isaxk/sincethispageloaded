@@ -5,7 +5,7 @@
 		text: string;
 		increment: number;
 		interval: number;
-		css: string;
+		color: string;
 		icon: string;
 	};
 
@@ -17,7 +17,7 @@
 </script>
 
 
-<div class="counter" style={data.css}>
+<div class="counter">
     <div class="left">
         <span class="material-symbols-outlined">
             {data.icon}
@@ -36,6 +36,9 @@
         align-items: center;
         gap: 10px;
         padding: 20px;
+        background-color: var(--header-background-color);
+
+        border-radius: 5px;
     }
     .count {
         font-family: var(--monospace-font-family);
